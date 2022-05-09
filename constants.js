@@ -1,2 +1,2 @@
-const SecretPassword = '13';
-const MaxTry = 5;
+const secretPassword = 13;
+const usersTry = ('Try =')
