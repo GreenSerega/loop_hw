@@ -4,16 +4,14 @@ while (true) {
   count++;
   if (userInput === "" || userInput === null || isNaN(userInput)) {
     alert("Put Number");
-  }
-  if (userInput === secretPassword) {
-    alert("Well done");
-    alert(count + usersTry);
-    break;
   } else if (userInput < secretPassword) {
     alert("More");
   } else if (userInput > secretPassword) {
     alert("Less");
   } else {
+    userInput === secretPassword;
+    alert("Well done");
     alert(usersTry + count);
+    break;
   }
 }
