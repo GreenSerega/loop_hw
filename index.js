@@ -9,7 +9,6 @@ while (true) {
   } else if (userInput > secretPassword) {
     alert("Less");
   } else {
-    userInput === secretPassword;
     alert("Well done");
     alert(usersTry + count);
     break;
